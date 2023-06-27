@@ -1,5 +1,3 @@
-https://www.netmentor.es/entrada/crear-diagramas-github
-
 ## Verificacion URL remota
 
 ```
@@ -27,7 +25,7 @@ git commit -m 'Mensaje'
 ## Formato de commit
 
 ```
-<tipo-de-commit>[scope]: <descripcion>
+<tipo-de-commit>: <descripcion>
 ```
 Ejemplo:
 ```
@@ -74,7 +72,6 @@ git push origin main
 ```
 git push
 ```
-
 
 ## Creacion de una nueva rama
 
