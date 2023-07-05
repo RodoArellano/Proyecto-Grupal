@@ -3,11 +3,11 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 def web_scrap():
-    """Realiza web scraping a la página web Carbuzz para extraer precios de autos."""
+    """Realiza WebScraping a la página Carbuzz para extraer precios de autos."""
 
     #Importar dataframe de modelos de taxi permitidos.
     df_taxi_models= pd.read_csv('Datasets\Auxiliares\models_taxi.csv')
-    
+
     #Crear una lista de los modelos.
     link_list= df_taxi_models['link'].to_list()
 
