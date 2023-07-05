@@ -1,0 +1,27 @@
+Vehicle_id,Model Year,Make,Model,MSRP(usd)
+1,2023,Chevrolet,Malibu,24700
+2,2023,Chrysler,Pacifica Hybrid,50795
+3,2023,Ford,Escape,28000
+4,2023,Ford,Escape Hybrid,35040
+5,2023,Ford,Mustang Mach-E,42995
+6,2023,Ford,Transit Connect,35600
+7,2023,Hyundai,Ioniq 5,41450
+8,2023,Hyundai,Sonata,25250
+9,2023,Hyundai,Sonata Hybrid,28250
+10,2023,Kia,Niro,39550
+11,2023,Kia,Niro EV,26590
+12,2023,Kia,Niro Plug-in Hybrid,33840
+13,2023,Mercedes-Benz,Metris,43600
+14,2023,Nissan,Altima,25490
+15,2023,Tesla,Model 3,40240
+16,2023,Tesla,Model Y,47240
+17,2023,Toyota,Camry,26320
+18,2023,Toyota,Camry Hybrid,28655
+19,2023,Toyota,Crown,39950
+20,2023,Toyota,Highlander,36620
+21,2023,Toyota,Highlander Hybrid,40620
+22,2023,Toyota,Prius,27450
+23,2023,Toyota,RAV4,28275
+24,2023,Toyota,RAV4 Hybrid,31225
+25,2023,Toyota,Sienna,36135
+26,2023,Toyota,Venza,34620
