@@ -1,5 +1,3 @@
-![Portada](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCv1P9TE7R8fivPk6JGNahMxub0JwPvnsAyw&usqp=CAU)
-
 <h1 align="center">  Semana 2: Data Engineering </h1>
 
 ## 📋 Indice
@@ -13,18 +11,18 @@
 
 ## 1. Descripcion de la semana. <a name="descripcion"></a>
 
-El trabajo de la segunda semana del proyecto estuvo orientada a la ingeniería de datos, a la extracción, limpieza y carga de los mismos a la estructura de Data Warehouse elegida. Se realizo una multiplicidad de tareas, repartidas entre el grupo de trabajo, las cuales pueden visualizarse en el siguiente Diagrama de Gantt [Link](https://docs.google.com/spreadsheets/d/1FfYJpII47lZE7PPJ2_Fkker2DmhxPlchE7BnmvAbcrQ/edit#gid=1115838130).
+El trabajo de la segunda semana del proyecto estuvo orientado a la ingeniería de datos, a la extracción, limpieza y carga de los mismos a la estructura de Data Warehouse elegida. Se realizaron una multiplicidad de tareas, repartidas en el grupo de trabajo, las cuales pueden visualizarse en el siguiente Diagrama de Gantt [Link](https://docs.google.com/spreadsheets/d/1FfYJpII47lZE7PPJ2_Fkker2DmhxPlchE7BnmvAbcrQ/edit#gid=1115838130).
 
 ## 2. Data Warehouse y Diagrama E-R <a name="e-r"></a>
 
-Al montar la infraestructura de almacenamiento, decidimos optar por el uso de Data Warehouse, montado sobre BigQuery dentro del servicio de Google Cloud Platform (GCP). Al tratarse de un modelo relacional, diseñamos el diagrama de Entidad-Relación que representa de manera gráfica la estructura lógica de nuestra base de datos.
+Al montar la infraestructura de almacenamiento, decidimos optar por el uso de Data Warehouse utilizando la herramienta BigQuery dentro del servicio de Google Cloud Platform (GCP). Al tratarse de un modelo relacional, diseñamos el diagrama de Entidad-Relación que representa de manera gráfica la estructura lógica de nuestra base de datos.
 
 ![E-R](https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/E-R.jpeg)
 
 ## 3. Diccionario <a name="dicc"></a>
 
 En función del diagrama E-R nombrado anteriormente, realizamos un diccionario de datos a fin de esclarecer el uso de la información y la validación de la misma. Puede visualizarse en el siguiente 
-[Link](Diccionario\Diccionario de datos.pdf)
+[Link](https://github.com/RoNovau/Proyecto-Grupal/blob/main/Diccionario/Diccionario%20de%20datos.pdf)
 
 
 ## 4. Extracción, transformación y carga (ETL). <a name="etl"></a>
@@ -39,7 +37,7 @@ En cuanto a la extracción de los mismos, utilizamos diferentes métodos:
 
 En cuanto a la transformación y limpieza de los datos se utilizó:
 
-+ **Pandas**: ETL en Python, en el siguiente archivo: [Link](ETL\ETL_car_models.ipynb)
++ **Pandas**: ETL en Python, en el siguiente archivo: [Link](https://github.com/RoNovau/Proyecto-Grupal/blob/main/ETL/ETL_car_models.ipynb)
 + **Big Query**: ETL realizado en GCP por el tamaño y extensión de la información.
 
 ## 5. Pipeline <a name="dw"></a>
