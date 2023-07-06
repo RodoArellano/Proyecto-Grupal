@@ -31,7 +31,7 @@ Para avanzar en la carga inicial de las diferentes tablas fue necesario realizar
 
 En cuanto a la extracción de los mismos, utilizamos diferentes métodos:
 
-+ **WebScrapping**: para extraer información de precios de autos y combustible.
++ **WebScrapping**: para extraer información de precios de autos y combustible. [Link](https://github.com/RoNovau/Proyecto-Grupal/blob/main/WebScrapping/webscrap_price.py)
 + **Datasets**: información estática estructurada en formato CSV y Parquet.
 + **API**: llamada a API sobre el clima, resultado obtenido en formato JSON. 
 
