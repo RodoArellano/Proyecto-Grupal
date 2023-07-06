@@ -1,4 +1,4 @@
-![Portada](https://www.dqsconsulting.com/wp-content/uploads/2021/09/como-hacer-un-analisis-de-datos.jpg)
+![Portada](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCv1P9TE7R8fivPk6JGNahMxub0JwPvnsAyw&usqp=CAU)
 
 <h1 align="center">  Semana 2: Data Engineering </h1>
 
@@ -9,7 +9,6 @@
 4. [Extracción, transformación y carga (ETL)](#etl)
 5. [Data Warehouse y Pipeline](#dw)
 6. [Flujo de Trabajo](#workflow)
-7. [Dependencias](#depen)
 
 
 ## 1. Descripcion de la semana. <a name="descripcion"></a>
@@ -20,11 +19,12 @@ El trabajo de la segunda semana del proyecto estuvo orientada a la ingeniería d
 
 Al montar la infraestructura de almacenamiento, decidimos optar por el uso de Data Warehouse, montado sobre BigQuery dentro del servicio de Google Cloud Platform (GCP). Al tratarse de un modelo relacional, diseñamos el diagrama de Entidad-Relación que representa de manera gráfica la estructura lógica de nuestra base de datos.
 
-![E-R](Diagramas\assets\E-R.jpeg)
+![E-R](https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/E-R.jpeg)
 
 ## 3. Diccionario <a name="dicc"></a>
 
-En función del diagrama E-R nombrado anteriormente, realizamos un diccionario de datos a fin de esclarecer el uso de la información y la validación de la misma.
+En función del diagrama E-R nombrado anteriormente, realizamos un diccionario de datos a fin de esclarecer el uso de la información y la validación de la misma. Puede visualizarse en el siguiente 
+[Link](Diccionario\Diccionario de datos.pdf)
 
 
 ## 4. Extracción, transformación y carga (ETL). <a name="etl"></a>
@@ -44,15 +44,13 @@ En cuanto a la transformación y limpieza de los datos se utilizó:
 
 ## 5. Pipeline <a name="dw"></a>
 
-El repositorio cuenta con:
+En el diagrama a continuación se puede observar en detalle el pipeline que grafica de forma clara el proceso de ETL desarrollado anteriormente. Por un lado, se encuentran los diferentes orígenes de los datos (WebScrapping y la herramienta Beautiful Soup, Archivos CSV, API), dichos datos continúan hacia el proceso de limpieza, transformación y validación realizado en Python con la librería Pandas, para posteriormente ser cargados en la base de datos de Google Big Query. Este recorrido hacia el Data Warehouse es denominado carga inicial. En cuanto a la carga incremental, realizada mensualmente de modo automatizada, se utilizan herramientas otorgadas por GCP: Cloud Scheduler, Cloud Pub/Sub, Cloud Function, Cloud Storage. Luego de ese proceso son cargadas a la base de datos relacional de BigQuery.
 
-+ **EDA.ipynb**: notebook donde se realizó el EDA
-+ **Datasets**: carpeta que contiene los CSV con los que se realizo el proyecto
-+ **Dashboard**: carpeta que contiene el dashboard creado en PowerBI
-+ **Dashboard Udemy.pbix**: dashboard interactivo
+![Pipeline](https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/Pipeline.jpg)
 
 ## 6. Flujo de Trabajo <a name="workflow"></a>
 
-El workflow del proyecto consta de un mínimo proceso de ETL, sobre todo de extracción de datos, creación de variables nuevas y webscrapping para la recolección de datos faltantes. Luego, sigue la etapa de EDA (Analisis Exploratorio de Datos), en la cual se analiza con mayor detalle la información, buscando cruzar variables importantes con el fin de generar nueva información. Por último, con la nueva información obtenida y un crecimiento en el conocimiento del negocio y la temática, se creó un dashboard en PowerBI que sintetiza las conclusiones mas pertinentes y permite mostrar los KPI elegidos. 
+En cuanto al flujo de trabajo, el siguiente diagrama permite tener un acercamiento al ciclo de vida completo del dato dentro del proyecto. Comenzando con la ingesta de datos, continuando con la integración y carga de datos al Data Warehouse. Por último, se agregan los diferentes procesos que consumirán desde la base de datos: por un lado se encuentra el Modelo de Machine Learning con Scikit-Learn como herramienta a utilizar, y por otro lado el reporte y la visualización, apuntando a la creación de un Dashboard en la herramiento PowerBI
 
-[Link](https://github.com/RoNovau/MOOC/blob/main/EDA.ipynb).
+![Workflow](https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/Workflow.jpg)
+
