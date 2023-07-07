@@ -10,6 +10,6 @@ AS (
     UNION ALL
     SELECT * FROM `nyc-taxis-and-carbon-emission.trip_records_clean.yellowTrips_2013_2023`
   ) AS combined_trips
+  WHERE EXTRACT(YEAR FROM pickup_datetime) BETWEEN 2013 AND 2023
 )
 ORDER BY trip_id ASC
-
