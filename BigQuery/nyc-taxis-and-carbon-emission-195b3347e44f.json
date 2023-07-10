@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nyc-taxis-and-carbon-emission",
+  "private_key_id": "195b3347e44f7b4c1974a11100e882bcdcf059e3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFODqABJnkbBbG\nRE5iu/JnUwgA90wZyxxWcNokBh1zCINveYqszB2djXH829cZJKTXvzxXkDCz+nMt\n3EUeBYGrZNKyh7F23OOyQo6P9BhjQUN5tVr4oynum8vmgNeqJycZYdxGARihKUKA\npNwjps3nbc5HqV8MomYCtdMg/mmF+fvh92VgXtxYsE2srGItyp0oWlj8lqyHFipM\nh2gp3LljeAP+ao5J4AmD+ZLgw9/JRwqXU4IIPf90G5l07u2ddYbiWhSwiJ1TsyFd\nwbNCJcqMeMTxheAj/Qgg5h9mCDdznF0V9ePS6bWhLMuzIy+piMYPNlsbroc4WOj4\nG4Ep2Eq7AgMBAAECggEABieTdWJ8LJHnwnEBqTi7f3H3fy0FTCcq6TlFKKtwLwjS\n+tJmLq8bNX5JuMRh80AeszgdxlwsYoSsV4AKQCRkplg579kmnQXKE7Dab6+eAZ4l\nxur1ip2jT1wmG5/MGylBoei/gQfDujPMn+S4Yfxwn71557UBAsBTddfKxCE5L2i0\n5S8KrP8tUByDaoaGBnjgx1xSiTT89nv63TokPYB5UYiG2KWFha5hBbIcIUtlgi4I\nLM1gKwmsWBaVn0wxaQ6b+7aV10qiqCbTNUvdkBSId5Y1cmUZRKHBFtVLawigDDWZ\nNQUMb9da1cQWvTVoCCkM4OofJ7lbhp/D+LZSTkna4QKBgQDoskmmuYL0LYNZXaeD\nYIqYKFaYSGCZGEP6oPPt12CPp78dCBy5aZxdfk6ms1/xesmMKOWXNibez/9x1I8S\nFffeswpS3Y+vbrzFEOp4WhCT9OhsONuD4iyKjTizuEqT5UOQfXy7DrxUcqrPeo3m\nEEWOU8bagY4mW7jyvpVuJyCRGQKBgQDY+Gk39nx83GO9ANHU6e0mXaewlzspYPv5\ni5tOGzheJ3BbBi4EVzB1MBWKRJTMHOE8YwUaSKwbw6MTUDzr2GYlELLZK+JnqZiP\n9KLNECz6McpL7at0OTmRrlDc16SE9buB0OsiC8BLwyU+zMR/OeWcH7KV2bMFyiNd\n9PF+bmUQ8wKBgQCJAehhlRqooF+U75KgxOf1fNK3qO3PVj04RSo6YLSHALKC6nLX\nLHqXhbXTawvTh4NB1haQOJ8cU4VIxWlTscGWyv4KGk/ucBoPQc17/TODmhB7H+MH\nvNSS42F+V8T5XWSxn2EgViXG5xjxPmxsCCqcCXGs19kVdq3npxUenUUMiQKBgGP+\nuJ9uHhl9iQoGYq550S4pY6tjR4TeicKMsNrieKwMCSAqTPL7K/4WVxcOXHVlqfim\nuidO7uMs2u9/v1QCu7DBbWvhacrUwtc1rAJOPixg3hb4RlieNwYJDIN7bvtINU6y\n9msOd2VzXqr+vGDWUhgOE8Q0POmiK4KV7OaUAkg5AoGAKSbE4RqGLyY7QsbyhK/h\nfOx2Xj1DjoKvMDNo+cdSuZ4s4BG0QmtXNFiNuFoWZ/SSj53/orJevQbw+gD2C4rK\nM+yBWtaOyRmj/cViK/82Wnvc+C22SKrZK25eSreFXyBtXQCzUYSciqayMKx2otZX\nov0BmaGOFmjOfbT0XT6nSaA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "data-engineer-01@nyc-taxis-and-carbon-emission.iam.gserviceaccount.com",
+  "client_id": "104472454487705878676",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/data-engineer-01%40nyc-taxis-and-carbon-emission.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
