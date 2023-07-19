@@ -7,9 +7,10 @@
 4. [Extracción, transformación y carga (ETL)](#etl)
 5. [Data Warehouse y Pipeline](#dw)
 6. [Flujo de Trabajo](#workflow)
+7. [Próxima Semana](#prox)
 
 
-## 1. Descripcion de la semana. <a name="descripcion"></a>
+## 1. Descripción de la semana. <a name="descripcion"></a>
 
 El trabajo de la segunda semana del proyecto estuvo orientado a la ingeniería de datos, a la extracción, limpieza y carga de los mismos a la estructura de Data Warehouse elegida. Se realizaron una multiplicidad de tareas, repartidas en el grupo de trabajo, las cuales pueden visualizarse en el siguiente Diagrama de Gantt [Link](https://docs.google.com/spreadsheets/d/1FfYJpII47lZE7PPJ2_Fkker2DmhxPlchE7BnmvAbcrQ/edit#gid=1115838130).
 
@@ -50,5 +51,8 @@ En el diagrama a continuación se puede observar en detalle el pipeline que graf
 
 En cuanto al flujo de trabajo, el siguiente diagrama permite tener un acercamiento al ciclo de vida completo del dato dentro del proyecto. Comenzando con la ingesta de datos, continuando con la integración y carga de datos al Data Warehouse. Por último, se agregan los diferentes procesos que consumirán desde la base de datos: por un lado se encuentra el Modelo de Machine Learning con Scikit-Learn como herramienta a utilizar, y por otro lado el reporte y la visualización, apuntando a la creación de un Dashboard en la herramiento PowerBI
 
-![Workflow](https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/Workflow.jpg)
+![Workflow](https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/Workflow.png)
 
+## 4. Próxima Semana <a name="prox"></a>
+
+Acceder al trabajo de la semana siguiente en este [Link](https://github.com/RoNovau/Proyecto-Grupal/blob/main/Documentacion/Informe_Semana3.md)
