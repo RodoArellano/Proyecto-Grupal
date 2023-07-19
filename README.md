@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/RoNovau/Proyecto-Grupal/blob/main/assets/encabezado.png" alt="Portada">
+</p>
+
 <h1 align="center">  Consultoria impacto ambiental: industria automotriz </h1>
 
 ## 📋 Indice
@@ -8,7 +12,7 @@
 5. [Semana 2.](#2)
 6. [Semana 3.](#3)
 7. [Semana 4.](#4)
-8. [Dependencias](#depen)
+8. [Stack Tecnológico](#stack)
 
 
 ## 1. Descripcion del proyecto <a name="descripcion"></a>
@@ -28,13 +32,16 @@ A su vez, las diferentes tareas realizadas a lo largo del proyecto por los integ
 El repositorio cuenta con:
 
 + **BigQuery**: carpeta donde se pueden ver las diferentes Querys realizadas en BigQuery
++ **Dashboard**: producto final entregable, dashboard interactivo realizado en PowerBi
 + **Datasets**: carpeta que contiene los CSV con los que se realizo el proyecto, tanto los auxiliares como los finales
 + **Diccionario**: diccionario de datos donde se especifican el formato y contenido de cada tabla
 + **Documentacion**: información detallada del trabajo realizado semana a semana
++ **EDA**: notebook donde se realizó el EDA y análisis previo al modelado de Machine Learning
 + **ETL**: notebook donde se realizó el proceso de ETL
 + **WebScrapping**: notebook donde se realizó el proceso de WebScrapping
 + **cloudFunction**: carpeta donde se observan las funciones de carga inicial e incremental realizadas en CloudFunction
 + **assets**: diagramas realizados como apoyo visual para la documentacion
++ **README.md**: explicación y desarrollo del proyecto
 
 ## 4. Semana 1. <a name="1"></a>
 
@@ -46,8 +53,18 @@ El trabajo de la segunda semana del proyecto estuvo orientado a la ingeniería d
 
 ## 6. Semana 3. <a name="3"></a>
 
+El trabajo de la tercera semana del proyecto estuvo orientado a la selección, modelado y entrenamiento de modelos de Machine Learning y la posterior creación de un Dashboard interactivo que reúna las conclusiones e insights obtenidos a lo largo del proyecto. Puede observarse con mayor detalle el trabajo realizado en el siguiente [informe](https://github.com/RoNovau/Proyecto-Grupal/blob/main/Documentacion/Informe_Semana3.md)
+
 ## 7. Semana 4. <a name="4"></a>
 
-## 8. Dependencias <a name="depen"></a>
+El trabajo de la cuarta semana del proyecto estuvo orientado a los retoques finales, ya con el proyecto cerrado y funcionando, utilizamos esta semana para poder pulir nuestra presentación ante el cliente, el storytelling y completar la documentación pertinente. Puede observarse con mayor detalle el trabajo realizado en el siguiente [informe](https://github.com/RoNovau/Proyecto-Grupal/blob/main/Documentacion/Informe_Semana4.md)
 
+## 8. Stack Tecnológico <a name="stack"></a>
 
+Python
+Google Cloud Platform
+Big Query
+Cloud Function
+Cloud Scheduler
+Cloud Storage
+Power BI
