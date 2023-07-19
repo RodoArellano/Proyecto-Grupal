@@ -8,6 +8,7 @@
 5. [Alcance](#alc)
 6. [KPI](#kpi)
 7. [Stack tecnológico](#stack)
+8. [Próxima Semana](#prox)
 
 
 ## 1. Descripcion de la semana. <a name="descripcion"></a>
@@ -19,10 +20,10 @@ El trabajo de la primera semana del proyecto estuvo orientado al entendimiento d
 Como primer paso definimos los roles y responsabilidades de cada integrante del grupo:
 
 + **Rodolfo Arellano**: Data Analyst
-+ **Rocio Novau**: Data Analyst
++ **Rocio Novau**: Data Science
 + **Pia Castillo Areco**: Data Science
-+ **Francisco Alba**: Data Science
-+ **Fernando Scuderi**: Data Engineer
++ **Francisco Alba**: Data Engineer
++ **Fernando Scuderi**: Data Analyst
 
 Luego, se estableció la metodología de trabajo la cual consiste en:
 + **Daily diaria con mentor**
@@ -34,27 +35,22 @@ Además, se realizaron una multiplicidad de tareas, repartidas en el grupo de tr
 
 ## 3. Entendimiento de la situación actual <a name="ent"></a>
 
+El cliente busca entrar a un nuevo mercado, comenzar un negocio de servicios de transporte vehicular en la ciudad de Nueva York con un enfoque bilateral: ambiental y económico. Nos ha contratado para brindarle un panorama del negocio actual, mostrar qué tan viable es el proyecto y entregar recomendaciones puntuales para una inserción en el mercado lo más eficaz posible.
 
 ## 4. Objetivos <a name="obj"></a>
 
-Objetivo principal:
-
-Cuantificar el impacto de las de emisiones CO2 y  de la contaminación auditiva/sonora de vehículos con motores de combustión, motores híbridos y vehículos eléctricos. De dicha comparación generar recomendaciones en vistas al objetivo de tener un impacto ambiental positivo.  
-
-Objetivos secundario:
-
-Comparativa entre costo de inversión para vehículos de combustión, híbridos o eléctricos (CapEx - costo de adquisición-y Opex - costo de mantenimiento-).
+Cuantificar el impacto de las de emisiones de CO2 y la ganancia estimada anual separando por tipo de vehículo (combustión, híbrido o eléctrico). Y en base a los datos obtenidos brindar recomendaciones para comenzar un negocio nuevo de taxis.
 
 ## 5. Alcance <a name="alc"></a>
 
-En cuanto al alcance del proyecto, decidimos centrar nuestros esfuerzos en un periodo de estudio de 10 años, desde 2013 a 2023, siendo el rango en el que mayor información pudimos recopilar y por ser el más cercano en el tiempo y, por lo tanto, el mas similar al contexto actual de inmesión en el mercado. 
+En cuanto al alcance del proyecto, decidimos centrar nuestros esfuerzos en un periodo de estudio de 5 años, desde 2018 a 2022, siendo el rango en el que mayor información pudimos recopilar y por ser el más cercano en el tiempo y, por lo tanto, el mas similar al contexto actual de inmesión en el mercado. Además, el análisis fue efectuado con la información de las empresas de taxis con mayor presencia actualmente en el mercado de la ciudad de Nueva York (Green Taxi y Yellow Taxi)
 
 Además, obtuvimos información de diferentes fuentes que componen y delimitan también nuestro alcance:
 
 Dataset viajes de los taxis en NYC 
-Dataset emisiones con precios de vehículos (TOP 26 modelos ) 
+Dataset emisiones con precios de vehículos (TOP 26 modelos) 
 Dataset histórico de clima
-Dataset contaminación sonora
+Dataset precios de combustible
 
 Para acceder al informe detallado sobre el análisis preliminar de los datos elegidos, ingresar a el siguiente [Link](https://docs.google.com/spreadsheets/d/1QOqQtbcGmgL1y_53beHhrTnCWdMIePwXdb-WvydcJY0/edit#gid=0) 
 
@@ -62,10 +58,15 @@ Para acceder al informe detallado sobre el análisis preliminar de los datos ele
 
 Asociados a los objetivos planteados anteriormente y con la intención de brindar información de calidad a la emnpresa, creamos el siguiente conjunto de KPI (Key Performance Indicator) que podrá medir y cuantificar el impacto de la inserción en un nuevo mercado, permitirá tener mayor claridad y control sobre ciertas variables interés para el futuro. Los KPI son:
 
-- Lograr una cantidad de viajes mínimos al mes (400.000) 
-- Llegar al ingreso bruto mensual tomando como referencia el año anterior
-- Limitar las emisiones de CO2 máxima al mes (13.120 Tn)
-- Alcanzar una contaminación sonora mínima al mes
+Impacto Medioambiental:
+
+- Limitar las emisiones de CO2 anuales por flota
+
+Rentabilidad de la nueva unidad de negocio:
+
+- Lograr la ganancia anual estimada según el tamaño de la flota
+- Cumplir con el ROI en inversión dentro del tiempo estimado
+- Llegar una cantidad de viajes mínimos al año por cantidad de vehículos
 
 ## 7. Stack tecnológico <a name="stack"></a>
 
@@ -84,4 +85,8 @@ Librerías a utilizar - lenguaje Python
 - matplotlib
 - request
 - beautifoulsoup
+
+## 8. Próxima Semana <a name="prox"></a>
+
+Acceder al trabajo de la semana siguiente en este [Link](https://github.com/RoNovau/Proyecto-Grupal/blob/main/Documentacion/Informe_Semana2.md)
 
